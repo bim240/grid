@@ -1,0 +1,33 @@
+@media all and (max-width:699px){
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header1"
+        "header2"
+        "about"
+        "about-img"
+        "skills"
+        "id"
+        "ms" 
+        "ma" 
+        "coding"
+        "exp"
+        "expc"
+        "edc"
+        "ed-img"
+        "contf"
+        "cont-img"
+        "cont-details"
+        "iframe"
+        "footer";
+    }
+    .nav-menu {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+
+}
